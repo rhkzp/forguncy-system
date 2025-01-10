@@ -1,0 +1,452 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,2": "거래처 조회",
+    "3,55": "검색",
+    "4,4": "거래처명",
+    "4,11": "등록번호",
+    "4,19": "대표자명",
+    "4,24": "주소",
+    "4,40": "전화번호",
+    "4,46": "FAX 번호",
+    "4,52": "최종 수정일",
+    "28,2": "등록",
+    "28,6": "삭제"
+  },
+  "AttachInfos": {
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.RecordNavigationCellType, ServerDesignerCommon",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "ImageSize": 10
+      }
+    },
+    "3,46": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "WaterMark": " 검색어를 입력하세요. ",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "거래처",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "회사명",
+                    "GUID": "e637735f-fd5f-4261-8429-dff6070345a4"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "등록번호",
+                    "GUID": "6a33f0b5-ab6e-4182-b950-a95d1f34df0e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "대표자명",
+                    "GUID": "df93d102-3d5e-46f1-af49-31bf6a799bdf"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "대표전화",
+                    "GUID": "5f40bc16-8c9b-4d5b-aa01-319981b79c09"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "휴대폰번호",
+                    "GUID": "7b76c7c8-7f50-414b-99dc-3fa420844a80"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "FAX_번호",
+                    "GUID": "1334f49e-05ab-444d-aed2-f58cd8f32747"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "업태",
+                    "GUID": "b2e4cdcb-32e6-4a82-a303-a84db331be04"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "종목",
+                    "GUID": "7b1e3216-5b22-403a-9efc-7c4a3a6069ff"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "적요",
+                    "GUID": "a72d971a-9694-4672-a359-0ea71b6d2d47"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "사업장주소",
+                    "GUID": "4ef3cc9f-4133-42db-8b76-dd070c5e0ca2"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "담당자",
+                    "GUID": "a37ef55b-6969-4f6e-a989-f942e920c6d2"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "연락처",
+                    "GUID": "de90d221-d2f9-4d41-8627-ad4141c18f62"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "메일",
+                    "GUID": "92a30502-b78a-40bd-be8c-378504995293"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "거래처",
+                    "ColumnName": "비고",
+                    "GUID": "a6b9b556-8c66-482f-9531-2fc546c40028"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='거래처 조회'!AU4"
+                  }
+                }
+              ],
+              "RelationType": 1
+            },
+            "ID": "4189f65fedae4cfaa8466bd5e07588c1"
+          }
+        ]
+      }
+    },
+    "3,55": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": ""
+          }
+        ],
+        "Text": "검색",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "4,2": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "거래처",
+        "RowIndex": 4,
+        "ColumnIndex": 2,
+        "RowCount": 23,
+        "ColumnCount": 56,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "28,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "거래처 등록"
+          }
+        ],
+        "Text": "등록",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "28,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "거래처",
+            "UpdateType": "delete",
+            "ShowConfirm": true,
+            "ConfirmText": "데이터를 삭제하시겠습니까?"
+          }
+        ],
+        "Text": "삭제",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 4
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 5
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "Formatter": 4
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 5
+      },
+      {
+        "Background": 6,
+        "Foreground": 5
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body",
+        "Background 1 -50",
+        "@",
+        "[AUTO]General",
+        "Text 1 0",
+        "Background 2 0"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "3,2": 1,
+      "3,46": 2,
+      "3,55": 3,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,11": 4,
+      "4,19": 4,
+      "4,24": 5,
+      "4,40": 6,
+      "4,46": 4,
+      "4,52": 4,
+      "28,6": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,2,1,6",
+    "3,46,1,8",
+    "3,55,1,3",
+    "28,2,1,3",
+    "28,6,1,3",
+    "5,4,1,7",
+    "5,11,1,8",
+    "5,19,1,5",
+    "5,24,1,16",
+    "5,40,1,6",
+    "5,46,1,6",
+    "5,52,1,6",
+    "6,2,21,56",
+    "4,4,1,7",
+    "4,11,1,8",
+    "4,19,1,5",
+    "4,24,1,16",
+    "4,40,1,6",
+    "4,46,1,6",
+    "4,52,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "마스터 페이지1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//6mjUzyHe+cJWSHEOfFzjVdh8ltpR4VnxHCQbiKzHdzE2XNP4XRnc8YWhhSYoW5BhtOgTkiEdTNqPKRyowwIk6RKzyRtGzFzyih1aMZgATKvLCnM9QbuTOYUAnnQJFfZ74VLB/izQQ2bbNMe9nI4UY+Q6QU3Dez7bIU0WKZpd5Dmi7iF7tGWRp9FuSn8di3AAeAhs/qIns8I2CGyOACLu3cDOLEXkZuBHDNsThuLR+Wxacv88alXnwhz7mnPC5nsHFkisfmIt9DUh5h7g0LnIqJ0NZXrTgtnDDacXnExc0+3f8jjyj5VxBre+LLKYhQiK3FES0Olya5CCrLR9o9ye1xdZ3BRi7c+CWVZIuIBUEdaDFp4utv3ooEtY9l8TU1iLT+fM+C5y2hy7ojLEacrqqrmmTmarxgh8gwLRkCE2BSV32VyTM9aS2cLC+VNW8AoGT2DljMWV1XuVkwZe9DVjOI+uNGuAVfLGlAKvoiIkdznRICUHLYJbMpsPr6l/mW0lByQDe9JC8mR4Gk7zcW5HroXLAIk3R5l5+jHWuYN5YkGjI0UvUmOG/sZVVF+KbF+0oNuA3qLJnaK1tNpl7mWNej25BQXg1/l3ZNfiR1+H03aB5yeScfk9vjyGAXIgTLJy3jIpzfIpqVW7l2HzZCOt/hFQB1EWmdJN+UCu7acDyE+dJHiJ+WJgu/+cHitjHzDwHHrnCsU7t/b0VR/fsE60428eOo+6J5gmZLLxYk+KrYyu2K/qLDrM8Kdqw5VIVEWWRnNONYMq8X9RN3iOxhrGNNulCX/9YXY6DJ777CdgWqZBSEsEQdqVk4uZW++gSuaAxKAn/08eudy9ALIiO27JAummjEWzZ9ViBIbkSlK1MZCvYZl4e/Guki4IhJxIFVwRXXrOwAkp5j/4c/bro970HQ==|920
