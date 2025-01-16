@@ -38,13 +38,7 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "휴대폰번호",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "FAX_번호",
+      "Name": "FAX번호",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
