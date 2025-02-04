@@ -1,22 +1,1043 @@
 {
   "Rows": {
-    "Count": 45
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 30,
+    "DefaultSize": 34.0
   },
   "Cols": {
-    "Count": 60
-  },
-  "StyleDatas": {
-    "Types": {
-      "Strs": [
-        "Body"
-      ]
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      }
     },
-    "SheetStyle": {
-      "FontFamily": 0
+    "Count": 53
+  },
+  "Values": {
+    "1,2": "수주 접수",
+    "4,3": "수주일자",
+    "4,28": "작업번호",
+    "6,3": " 거래처",
+    "6,28": "통화",
+    "8,3": "닙품기일",
+    "8,28": " 첨부파일",
+    "11,2": "견적내용 불러오기",
+    "27,2": "저장",
+    "27,6": "다시작성",
+    "27,11": "리스트"
+  },
+  "Formulas": {
+    "25,40": "SUM(AT15)",
+    "14,17": "ODATA(\"품목?$select=규격&$filter=ID eq \"&IF(ISBLANK(#REF!),\"null\",#REF!))",
+    "14,40": "AK15*AO15",
+    "25,30": "SUM(AE15)"
+  },
+  "AttachInfos": {
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "수주일자",
+        "GUID": "9c841d35-63e8-478f-aa91-2906b1e1c862"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "4,33": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "작업번호",
+        "GUID": "dddeca06-333d-4fc3-ab0e-d8c2485a5b0c"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "6,9": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "거래처ID",
+        "GUID": "2ce3711e-52a4-4644-96b9-61a7000c4957",
+        "RelationBinding": {
+          "RelatedTable": "거래처",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "회사명"
+        }
+      }
+    },
+    "6,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=수주접수!J7"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PageName": "거래처검색"
+                  }
+                ],
+                "ID": "50c049fc-ec6d-4cc6-b91c-83463d054e39"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=수주접수!J7"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PageName": "거래처검색"
+                  }
+                ],
+                "ID": "eb7b9bad-de05-46de-9a76-34d9be0ae912"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Main1",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "6,33": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "통화",
+        "GUID": "a9c3f7b6-f255-48ca-9d45-19292dc8e3f1"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "KRW",
+            "DisplayValue": "KRW"
+          },
+          {
+            "Value": "USD",
+            "DisplayValue": "USD"
+          },
+          {
+            "Value": "JPY",
+            "DisplayValue": "JPY"
+          }
+        ]
+      }
+    },
+    "8,9": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "납품기일",
+        "GUID": "56562d4b-9be0-4c33-9198-6c262d5f5bc7"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "8,34": {
+      "BindingInfo": {
+        "TableName": "수주",
+        "ColumnName": "첨부_파일",
+        "GUID": "e588bff0-d33c-44b8-8297-3ba1a9c15810"
+      },
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
+        },
+        "TemplateKey": "_RS_NewFashionStyle1"
+      }
+    },
+    "11,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "견적내용불러오기",
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "견적내용 불러오기",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "13,2": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "수주상세",
+        "RowIndex": 13,
+        "ColumnIndex": 2,
+        "RowCount": 12,
+        "ColumnCount": 49,
+        "TopCondition": null,
+        "ListViewStyleName": "사용자 정의2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "14,4": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "제품ID",
+        "GUID": "a45c7a15-ba96-4010-9562-5dd37a243d52",
+        "RelationBinding": {
+          "RelatedTable": "품목",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "품목"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "품목",
+        "ValueColumnBindingInfo": {
+          "TableName": "품목",
+          "ColumnName": "ID",
+          "GUID": "68cbe765-a9ab-44dc-9aac-087c285ee382"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "품목",
+          "ColumnName": "품목",
+          "GUID": "e8ee041a-47e0-438a-9cfc-195c28dd8671"
+        }
+      }
+    },
+    "14,17": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "제품ID",
+        "GUID": "74916a07-4e90-49a4-8fac-9e85dea9e172",
+        "RelationBinding": {
+          "RelatedTable": "품목",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "규격"
+        }
+      }
+    },
+    "14,27": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "제품ID",
+        "GUID": "c910509e-98ae-41ce-bec7-3f611191316e",
+        "RelationBinding": {
+          "RelatedTable": "품목",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "단위"
+        }
+      }
+    },
+    "14,30": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "주문수량",
+        "GUID": "92cfc7c0-0351-4329-8510-ea481ee55f9c"
+      }
+    },
+    "14,34": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "단가",
+        "GUID": "022b214f-5394-46a1-908e-d28aeb4edfa0"
+      }
+    },
+    "14,40": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "수주금액",
+        "GUID": "8cce4fb1-cff6-4213-a490-11dbaba7d308"
+      }
+    },
+    "14,45": {
+      "BindingInfo": {
+        "TableName": "수주상세",
+        "ColumnName": "수주ID",
+        "GUID": "1ff7e4d9-9cb6-4169-83d7-ed8d860fee3d",
+        "RelationBinding": {
+          "RelatedTable": "수주",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "견적번호"
+        }
+      }
+    },
+    "27,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=수주접수!C28"
+                      }
+                    ]
+                  },
+                  "value": "추가"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "수주상세",
+                    "UpdateType": "add",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "7a97f9bc-7cfb-4add-a06b-270ee465cbcc"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=수주접수!C28"
+                      }
+                    ]
+                  },
+                  "value": "편집"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "수주상세",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "a22ae3bf-c04e-4996-935b-ee4e5e210271"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "수주현황"
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "27,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "수주접수"
+          }
+        ],
+        "Text": "다시작성",
+        "TemplateKey": "스타일1"
+      }
+    },
+    "27,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "수주현황"
+          }
+        ],
+        "Text": "리스트",
+        "TemplateKey": "스타일1"
+      }
     }
   },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "Background": 2,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "Formatter": 7,
+        "HorizontalAlignment": 8
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "Formatter": 7,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "Formatter": 9,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": 2
+      },
+      {
+        "Formatter": 9
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "Formatter": 9,
+        "HorizontalAlignment": 5,
+        "Underline": true
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5,
+        "BorderBottom": 0
+      },
+      {
+        "FontSize": -1.0,
+        "HorizontalAlignment": 8
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": -1.0,
+        "HorizontalAlignment": 8
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": -1.0,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": 2,
+        "BorderBottom": 1,
+        "BorderTop": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderTop": 1
+      },
+      {
+        "Background": 2,
+        "FontFamily": 4,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5,
+        "BorderBottom": 1,
+        "BorderTop": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Left",
+        "Background 1 -5",
+        "Background 1 -50",
+        "Body",
+        "Center",
+        "Text 1 0",
+        "[AUTO]General",
+        "General",
+        "@",
+        "black"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 3
+        },
+        {
+          "Style": 2,
+          "Color": 10
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "3,18": 1,
+      "3,19": 1,
+      "3,20": 1,
+      "3,21": 1,
+      "3,22": 1,
+      "3,23": 1,
+      "3,24": 1,
+      "3,25": 1,
+      "3,26": 1,
+      "3,27": 1,
+      "3,28": 1,
+      "3,29": 1,
+      "3,30": 1,
+      "3,31": 1,
+      "3,32": 1,
+      "3,33": 1,
+      "3,34": 1,
+      "3,35": 1,
+      "3,36": 1,
+      "3,37": 1,
+      "3,38": 1,
+      "3,39": 1,
+      "3,40": 1,
+      "3,41": 1,
+      "3,42": 1,
+      "3,43": 1,
+      "3,44": 1,
+      "3,45": 1,
+      "3,46": 1,
+      "3,47": 1,
+      "3,48": 1,
+      "3,49": 1,
+      "3,50": 1,
+      "3,51": 2,
+      "4,2": 3,
+      "4,3": 3,
+      "4,9": 2,
+      "4,26": 4,
+      "4,27": 3,
+      "4,28": 5,
+      "4,33": 6,
+      "4,49": 7,
+      "4,50": 3,
+      "4,51": 2,
+      "5,2": 7,
+      "5,3": 7,
+      "5,4": 7,
+      "5,5": 7,
+      "5,6": 7,
+      "5,7": 7,
+      "5,8": 7,
+      "5,9": 7,
+      "5,10": 7,
+      "5,11": 7,
+      "5,12": 7,
+      "5,13": 7,
+      "5,14": 7,
+      "5,15": 7,
+      "5,16": 7,
+      "5,17": 7,
+      "5,18": 7,
+      "5,19": 7,
+      "5,20": 7,
+      "5,21": 7,
+      "5,22": 7,
+      "5,23": 7,
+      "5,24": 7,
+      "5,25": 7,
+      "5,26": 7,
+      "5,27": 7,
+      "5,28": 7,
+      "5,29": 7,
+      "5,30": 7,
+      "5,31": 7,
+      "5,32": 7,
+      "5,33": 7,
+      "5,34": 7,
+      "5,35": 7,
+      "5,36": 7,
+      "5,37": 7,
+      "5,38": 7,
+      "5,39": 7,
+      "5,40": 7,
+      "5,41": 7,
+      "5,42": 7,
+      "5,43": 7,
+      "5,44": 7,
+      "5,45": 7,
+      "5,46": 7,
+      "5,47": 7,
+      "5,48": 7,
+      "5,49": 7,
+      "5,50": 7,
+      "5,51": 2,
+      "6,2": 3,
+      "6,3": 3,
+      "6,9": 8,
+      "6,26": 7,
+      "6,27": 3,
+      "6,28": 3,
+      "6,33": 6,
+      "6,49": 7,
+      "6,50": 3,
+      "6,51": 2,
+      "7,2": 7,
+      "7,3": 7,
+      "7,4": 7,
+      "7,5": 7,
+      "7,6": 7,
+      "7,7": 7,
+      "7,8": 7,
+      "7,9": 7,
+      "7,10": 7,
+      "7,11": 7,
+      "7,12": 7,
+      "7,13": 7,
+      "7,14": 7,
+      "7,15": 7,
+      "7,16": 7,
+      "7,17": 7,
+      "7,18": 7,
+      "7,19": 7,
+      "7,20": 7,
+      "7,21": 7,
+      "7,22": 7,
+      "7,23": 7,
+      "7,24": 7,
+      "7,25": 7,
+      "7,26": 7,
+      "7,27": 7,
+      "7,28": 7,
+      "7,29": 7,
+      "7,30": 7,
+      "7,31": 7,
+      "7,32": 7,
+      "7,33": 7,
+      "7,34": 7,
+      "7,35": 7,
+      "7,36": 7,
+      "7,37": 7,
+      "7,38": 7,
+      "7,39": 7,
+      "7,40": 7,
+      "7,41": 7,
+      "7,42": 7,
+      "7,43": 7,
+      "7,44": 7,
+      "7,45": 7,
+      "7,46": 7,
+      "7,47": 7,
+      "7,48": 7,
+      "7,49": 7,
+      "7,50": 7,
+      "7,51": 2,
+      "8,0": 2,
+      "8,1": 2,
+      "8,2": 3,
+      "8,3": 3,
+      "8,9": 6,
+      "8,26": 4,
+      "8,27": 3,
+      "8,28": 3,
+      "8,29": 2,
+      "8,30": 2,
+      "8,31": 2,
+      "8,32": 2,
+      "8,33": 2,
+      "8,34": 9,
+      "8,51": 2,
+      "8,52": 2,
+      "9,0": 2,
+      "9,1": 2,
+      "9,2": 10,
+      "9,3": 10,
+      "9,4": 10,
+      "9,5": 10,
+      "9,6": 10,
+      "9,7": 10,
+      "9,8": 10,
+      "9,9": 10,
+      "9,10": 10,
+      "9,11": 10,
+      "9,12": 10,
+      "9,13": 10,
+      "9,14": 10,
+      "9,15": 10,
+      "9,16": 10,
+      "9,17": 10,
+      "9,18": 10,
+      "9,19": 10,
+      "9,20": 10,
+      "9,21": 10,
+      "9,22": 10,
+      "9,23": 10,
+      "9,24": 10,
+      "9,25": 10,
+      "9,26": 10,
+      "9,27": 10,
+      "9,28": 10,
+      "9,29": 10,
+      "9,30": 10,
+      "9,31": 10,
+      "9,32": 10,
+      "9,33": 10,
+      "9,34": 10,
+      "9,35": 10,
+      "9,36": 10,
+      "9,37": 10,
+      "9,38": 10,
+      "9,39": 10,
+      "9,40": 10,
+      "9,41": 10,
+      "9,42": 10,
+      "9,43": 10,
+      "9,44": 10,
+      "9,45": 10,
+      "9,46": 10,
+      "9,47": 10,
+      "9,48": 10,
+      "9,49": 10,
+      "9,50": 10,
+      "9,51": 2,
+      "9,52": 2,
+      "10,51": 2,
+      "11,51": 2,
+      "12,51": 2,
+      "13,4": 11,
+      "13,45": 11,
+      "13,51": 2,
+      "14,4": 11,
+      "14,17": 12,
+      "14,27": 12,
+      "14,30": 12,
+      "14,34": 2,
+      "14,40": 13,
+      "14,45": 11,
+      "14,51": 2,
+      "15,51": 2,
+      "16,51": 2,
+      "17,51": 2,
+      "18,51": 2,
+      "19,51": 2,
+      "20,51": 2,
+      "25,2": 14,
+      "25,3": 15,
+      "25,4": 15,
+      "25,5": 15,
+      "25,6": 15,
+      "25,7": 15,
+      "25,8": 15,
+      "25,9": 15,
+      "25,10": 15,
+      "25,11": 15,
+      "25,12": 15,
+      "25,13": 15,
+      "25,14": 15,
+      "25,15": 15,
+      "25,16": 15,
+      "25,17": 15,
+      "25,18": 15,
+      "25,19": 15,
+      "25,20": 15,
+      "25,21": 15,
+      "25,22": 15,
+      "25,23": 15,
+      "25,24": 15,
+      "25,25": 14,
+      "25,26": 16,
+      "25,27": 16,
+      "25,28": 16,
+      "25,29": 16,
+      "25,30": 16,
+      "25,31": 15,
+      "25,32": 15,
+      "25,33": 15,
+      "25,34": 16,
+      "25,35": 16,
+      "25,36": 16,
+      "25,37": 16,
+      "25,38": 16,
+      "25,39": 16,
+      "25,40": 16,
+      "25,41": 15,
+      "25,42": 15,
+      "25,43": 15,
+      "25,44": 15,
+      "25,45": 14,
+      "25,46": 14,
+      "25,47": 14,
+      "25,48": 14,
+      "25,49": 14,
+      "25,50": 14,
+      "27,6": 2,
+      "27,11": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "FontSize": 13.333333333333332,
+      "HorizontalAlignment": 5
+    }
+  },
+  "Spans": [
+    "27,2,1,3",
+    "6,24,1,2",
+    "4,3,1,6",
+    "8,3,1,6",
+    "4,28,1,5",
+    "6,3,1,6",
+    "6,28,1,5",
+    "27,6,1,4",
+    "27,11,1,6",
+    "11,2,1,9",
+    "8,28,1,6",
+    "15,2,10,49",
+    "4,9,1,17",
+    "4,33,1,16",
+    "8,9,1,17",
+    "8,34,1,17",
+    "25,2,1,23",
+    "14,40,1,5",
+    "14,34,1,6",
+    "14,30,1,4",
+    "14,27,1,3",
+    "14,4,1,13",
+    "14,17,1,10",
+    "25,40,1,5",
+    "25,30,1,4",
+    "6,9,1,15",
+    "6,33,1,16",
+    "14,45,1,6",
+    "13,4,1,13",
+    "13,17,1,10",
+    "13,27,1,3",
+    "13,30,1,4",
+    "13,34,1,6",
+    "13,40,1,5",
+    "13,45,1,6"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "마스터 페이지1",
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -32,10 +1053,11 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "수주상세"
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//nyH2/fVPrljpQh9LDVH5aCa+l5k1zGMWzDWqKXPMopeVe4Xr4NFiJUI7bmwERiFP/wDDrWESx/QMUIIhkAByxVjKOsuohTIbhIXWkr5k7UtPt0su0f4aotJrBrZV6G9XWy86LxKg7G0Q/ejdvT/otCCuJi0DqiQAcTKsG7XrIDVTBw0ElyGGUTreIkU4ceQ8cJg13dvOiIPWrvwRWrmZZQnxHtg8PBK3oSQb/YchoLuKuAk1uhfeknDHJH7atADVFJygIa5maBwlKGUX3PPas06H0KJWEI0ASYPHeCVtmwGnl8yn1re/qYIUqGiknXCS64ma0CuaNCUFMEM7Vp6Xd954YEUCWF9buWTZ9vlzwK1CRYlQDp5T37dvU66AlWLcaC2bRRQ1wQbqU8ekdYaSdJ4hEhjr+wZ+8hgn2JmgFdgwVSwUIeFzT7U/LBIiv8JUL1+Ur96V5HJq3JdWdrq5UgH2A7DgDxhJ1AwaR65M6crHKmzgd6p8nI8Mu/SCwseF0tJpZM2tvTmHdQPc5tu40jZuxLfm6Si3hWmyGJrmdMwJChGKrdCElgNDXskp+vEwUwz+juiUuKB8E+C3WBYur9MENXoZJbvGSB+AWq6FCPr7GgVMqSZLts4MTxrvJgsnOcM9tksXARL6QW6jnoI6QUNVhZ3JZsqgKT+byOrVeKW7BZQjB2nAzAgNTJcX8HoleBnh8aOYUzDR/h3iYsIZGTEBVF+On+/nLGBT7Mm/c+Q2T11Nr0cLIMsi9SEo7iETzG65bzL8Uk6InwmO6MzG0NaF3EveADSgFmrooOS45LNdbJxSFpJHSBd2F8Yc4YBTe/7z6YQYRCMHVsrtAktU//Rq7HTs78pW8Mq4pZUbn1QJ5+qXZu1bGcVCCIMzoNQAhjoE2Q0k240b3WKiCLaWGw==|920
+}//FJWT97Rpx0PoxVSa1vVYgxuibTGr/VfZdcLzpkdTR+BVzl0FcKxv0z54uIjrhSnIQdJzzVC7r3Ex77leezvuiDLv8SlhicXfaMTl8nBtn5Vs26kY6715/F/D11yjKObC6/qzHgYeCIgdhwT5ukX28fuK3nPNZTa+IzPLt17lEPjyuhe0pOQJRDIlnZ3rIL1ZuikLu5ps9zkN7OmjB4b0CQxuCLijK3TAkJgmOB42ZMq5gTVfDvllP7TQgcnyOKjCH0x51l4uRkpUcp0LSxVIH5WCew0cim5fHUYC63rn9bzgUrMOiVNtOTvjEK/mGN2ptajP0LjKQXsiTG7mX1K2hGl78JLzDjBgmy400HsZ6ndKMDZn9mfAPwCRzZuWXD3ojy6glU7ueqxU/hjWvJvXhq8GowfG1v/s4UqDJo7+bYZfNIshCP2Bzb19RGbHjIMo7An+kD0wN74Q/9ytHPHgefDf6+xPfiomxZ2r1Wb9jev5plkiMMaXnZsYPi4YUEHy37eYr5Krpvpxd35HULgva5+wzJxlN4bItF4U1ZpYQUPfW0J+jcsCDT33r9UY5lHPvNk1fVEnwPNzo5yZKXbkf7eMIfPiQhLO1S8iUl5gAigpzHWiCKmPkaZ5pI1wqtJGLzHlyVyEg+fZX6ooSqoIevLx2hpk1B/oh/tgkh+Fp0z9J19mHnksfwwUlet2E0pgoLIfoph1kW1+eA3f8/lsp4iUY4/5sW4Wr1iRItJqqajUziqu5PmSoURegEnKV5o0DbUln5wwd+rau0usBetSKWJNupveQcQ69+C76UO1IEH3ZJaZeipCYzn0pJ0bUrxz9kKAwIne65D1g7JNoOKJjLXSxVNphadGJ5W4zlwOrghhAtCKC57vpWS2Y6/j3mOtFCF7wtKTy87uDUuFCnUjeQ==|920

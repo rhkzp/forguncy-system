@@ -1,0 +1,427 @@
+{
+  "Rows": {
+    "Count": 20,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 44,
+    "DefaultSize": 26.0
+  },
+  "Values": {
+    "1,1": "대일정 정보",
+    "3,1": "구분",
+    "3,16": "연도",
+    "3,30": "작업번호",
+    "6,1": "고객사",
+    "6,16": "MODEL",
+    "6,30": "이슈사항",
+    "9,1": "Type",
+    "9,16": "수주일",
+    "9,30": "납기",
+    "12,1": "원자재",
+    "12,16": "DTO",
+    "12,30": "진행상태",
+    "15,1": "비고",
+    "18,1": "저장",
+    "18,5": "닫기"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "구분",
+        "GUID": "74fb4bc5-ec54-44da-8f6c-821dd577547e"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "연도",
+        "GUID": "866e30cf-14da-4b95-aee0-4698d3becdfb"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "4,30": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "작업번호",
+        "GUID": "b90bb1b3-bb55-480d-944e-b24d6533c7f2"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,1": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "고객사",
+        "GUID": "e93756fb-3961-42cf-85b8-bddc29cc3806"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,16": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "MODEL",
+        "GUID": "ca0f5b00-1e36-4a72-ad6c-8ba281fc84b0"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,30": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "이슈사항",
+        "GUID": "54944e55-a004-4a08-9f78-83bbafad64f0"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "10,1": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "Type",
+        "GUID": "1b37d303-6b1e-4d3a-b692-ed9b7bc6673d"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "10,16": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "수주일",
+        "GUID": "1cec6a36-60f6-4439-9a76-9dba0ed26701"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "10,30": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "납기",
+        "GUID": "53ddac6b-6eda-4f05-9836-b223d768091a"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "13,1": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "원자재",
+        "GUID": "f6a35c13-0ffc-414d-9d88-782279709cab"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "13,16": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "DTO",
+        "GUID": "6a457c56-dbac-4e19-a5a6-2c958af7cb3d"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "13,30": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "진행상태",
+        "GUID": "c68f9c2c-244d-4ea2-be3c-3e23ffaf414c"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "16,1": {
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "비고",
+        "GUID": "764bb84a-451a-4d38-8a17-a39323f6f20e"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "18,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=대일정등록!B19"
+                      }
+                    ]
+                  },
+                  "value": "추가"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "대일정",
+                    "UpdateType": "add",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "5fdecd01-4519-43bb-a405-69da3e8e210c"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=대일정등록!B19"
+                      }
+                    ]
+                  },
+                  "value": "편집"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "대일정"
+                  }
+                ],
+                "ID": "63af3b70-29e6-4e84-a943-d4a002ba55a0"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "18,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "FontWeight": 0,
+        "TextIndent": 10,
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "#FF002060",
+        "@",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Style": 5,
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "4,1": 1,
+      "4,16": 1,
+      "4,30": 1,
+      "7,1": 1,
+      "7,16": 1,
+      "7,30": 1,
+      "10,1": 1,
+      "13,1": 1,
+      "13,16": 1,
+      "13,30": 1,
+      "16,1": 1,
+      "18,5": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "3,1,1,7",
+    "4,1,1,14",
+    "3,16,1,6",
+    "4,16,1,13",
+    "3,30,1,6",
+    "4,30,1,13",
+    "6,1,1,7",
+    "7,1,1,14",
+    "6,16,1,6",
+    "7,16,1,13",
+    "6,30,1,6",
+    "7,30,1,13",
+    "9,1,1,7",
+    "10,1,1,14",
+    "9,16,1,6",
+    "10,16,1,13",
+    "9,30,1,6",
+    "10,30,1,13",
+    "12,1,1,7",
+    "13,1,1,14",
+    "12,16,1,6",
+    "13,16,1,13",
+    "12,30,1,6",
+    "13,30,1,13",
+    "15,1,1,7",
+    "16,1,1,14",
+    "18,1,1,3",
+    "18,5,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//zhGgfqAqVBbWuXhEC4WQQzSD2abgyClBlZgFbrzR81mqcO7jl7TweKc1AnXswSCaJzRVlR0dVGNNPU/NJZ5andZjql44z5iVUARRSZHF8DRn8bLSsIWldAbOiaWwYoY20SPOUHBWxKgYOWCc1nDsMtT6oVLo6kYkciFkD12zrMKzX8pFE4HE/9Uizh1oH16MCx97s1Pg6ISurVs5nuudCKLQAwSE20MZYcznJ00juS3I5vWtflmzddb/eOY+eHLvwG2LuMQFV3NjcFf/AqKx6p6BNJdD+GE4rDkJU4LqwmsVvE+TOMSbIruClw7XwZmhey6F4GehuRE8qCgjdwTGKHD0Ty7qyEolk18qptnaB7uNyyEpLEnNV2AjRUYHJOpP22e4Jcgyagidh+QqPsHH/FkPUYW/uPWIXTUbEvzRUgFKpD/oeQi+hnO2eVSuMNZ8VoZKtcsbxjPWglYQywtcBC4351NDIOWNk7TrjWCXBy8Lmdspcqojz03A7Jr1Wtvk5B/YRWo9rTL4iT3lpbcSU18tQmoSRH0OK/ynYWasGDhrIlU++exXRIoUA86IFHuS60kMSYm2EZQnevFJiPjU9lSeWGOvpJtvJqzDwW8p9GCaeOKZcG+2idxPWrajS2FTqtOhflbrsWA368L92VFmlkBuP0EOQt2+u8OGgQfM3EbX3sHAfYKc0UiLwEpCq0E6J/g6WKwMLTCg0XOoALzpaeLRgy9JJPWC0ghJ93Q9TcfOOmfQPDxIMPsea6y6bVAIhvycXEukJpCGSIrSByF05Tl9cfNkNNpZrN5/LAIQBoPcCbWgGM6R2XPCxW14gtW9vGtUZRUvu7pILwbMusrteBslWF0B9s4oikW+vbXjcSNnCVR58PvcpKyR+UUN3sVxcLiAQNRDP4DeegFS7kwBsg==|920

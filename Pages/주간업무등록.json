@@ -1,0 +1,661 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 36.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 20,
+    "DefaultSize": 36.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      }
+    },
+    "Count": 65
+  },
+  "Values": {
+    "1,2": "부서별 주간업무",
+    "3,2": "작성일자",
+    "3,21": "부서명",
+    "18,2": "저장",
+    "18,6": "닫기"
+  },
+  "AttachInfos": {
+    "3,8": {
+      "BindingInfo": {
+        "TableName": "주간업무",
+        "ColumnName": "작성일자",
+        "GUID": "e05fa5a1-e277-4027-b3cb-79d0f8b9fdb2"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "3,26": {
+      "BindingInfo": {
+        "TableName": "주간업무",
+        "ColumnName": "부서명",
+        "GUID": "bdb2d29c-f0db-42f0-973c-e2c47c18d502"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "영업",
+            "DisplayValue": "영업"
+          },
+          {
+            "Value": "프레스",
+            "DisplayValue": "프레스"
+          },
+          {
+            "Value": "가공",
+            "DisplayValue": "가공"
+          },
+          {
+            "Value": "조립",
+            "DisplayValue": "조립"
+          }
+        ]
+      }
+    },
+    "5,2": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "주간업무상세",
+        "RowIndex": 5,
+        "ColumnIndex": 2,
+        "RowCount": 12,
+        "ColumnCount": 61,
+        "TopCondition": null,
+        "ListViewStyleName": "사용자 정의2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,4": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "업무내용",
+        "GUID": "bd095c63-1de1-4714-ae45-e1568fc3c859"
+      }
+    },
+    "6,18": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "목표일정",
+        "GUID": "62541d7e-ddd0-402d-90b7-a73dbd108896"
+      }
+    },
+    "6,25": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "전주실적",
+        "GUID": "02a12a12-f8b2-4e67-9b4d-8173afe79e99"
+      }
+    },
+    "6,35": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "전주_진도율",
+        "GUID": "c12c7ff9-c499-47ca-bba6-97d5d1ddaab5"
+      }
+    },
+    "6,41": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "금주계획",
+        "GUID": "246f3935-b554-4deb-8d57-cd3fe50c3630"
+      }
+    },
+    "6,51": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "금주_진도율",
+        "GUID": "e665769d-bed1-4e85-a259-5372bfd296dc"
+      }
+    },
+    "6,57": {
+      "BindingInfo": {
+        "TableName": "주간업무상세",
+        "ColumnName": "비고",
+        "GUID": "2f8ba827-0d39-4dc5-9bd2-c9bb18d841e3"
+      }
+    },
+    "18,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=주간업무등록!C19"
+                      }
+                    ]
+                  },
+                  "value": "신규"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "주간업무상세",
+                    "UpdateType": "add",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "de913283-adbb-448d-9177-8bcbb3e313bf"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=주간업무등록!C19"
+                      }
+                    ]
+                  },
+                  "value": "수정"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "주간업무상세",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "09630aa9-a0e9-430b-b032-d8a538a4899e"
+              }
+            ]
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "18,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "Formatter": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Center",
+        "한컴 고딕",
+        "YYYY/MM/DD",
+        "0%"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,3": 0,
+      "3,8": 1,
+      "3,21": 2,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "4,13": 2,
+      "4,14": 2,
+      "4,15": 2,
+      "4,16": 2,
+      "4,17": 2,
+      "4,18": 2,
+      "4,19": 2,
+      "4,20": 2,
+      "4,21": 2,
+      "4,22": 2,
+      "4,23": 2,
+      "4,24": 2,
+      "4,25": 2,
+      "4,26": 2,
+      "4,27": 2,
+      "4,28": 2,
+      "4,29": 2,
+      "4,30": 2,
+      "4,31": 2,
+      "4,32": 2,
+      "4,33": 2,
+      "4,34": 2,
+      "4,35": 2,
+      "4,36": 2,
+      "4,37": 2,
+      "4,38": 2,
+      "4,39": 2,
+      "4,40": 2,
+      "4,41": 2,
+      "4,42": 2,
+      "4,43": 2,
+      "4,44": 2,
+      "4,45": 2,
+      "4,46": 2,
+      "4,47": 2,
+      "4,48": 2,
+      "4,49": 2,
+      "4,50": 2,
+      "4,51": 2,
+      "4,52": 2,
+      "4,53": 2,
+      "4,54": 2,
+      "4,55": 2,
+      "4,56": 2,
+      "4,57": 2,
+      "4,58": 2,
+      "4,59": 2,
+      "4,60": 2,
+      "4,61": 2,
+      "4,62": 2,
+      "4,63": 2,
+      "4,64": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,18": 2,
+      "6,18": 3,
+      "6,35": 4,
+      "6,51": 4,
+      "17,2": 2,
+      "17,3": 2,
+      "17,4": 2,
+      "17,5": 2,
+      "17,6": 2,
+      "17,7": 2,
+      "17,8": 2,
+      "17,9": 2,
+      "17,10": 2,
+      "17,11": 2,
+      "17,12": 2,
+      "17,13": 2,
+      "17,14": 2,
+      "17,15": 2,
+      "17,16": 2,
+      "17,17": 2,
+      "17,18": 2,
+      "17,19": 2,
+      "17,20": 2,
+      "17,21": 2,
+      "17,22": 2,
+      "17,23": 2,
+      "17,24": 2,
+      "17,25": 2,
+      "17,26": 2,
+      "17,27": 2,
+      "17,28": 2,
+      "17,29": 2,
+      "17,30": 2,
+      "17,31": 2,
+      "17,32": 2,
+      "17,33": 2,
+      "17,34": 2,
+      "17,35": 2,
+      "17,36": 2,
+      "17,37": 2,
+      "17,38": 2,
+      "17,39": 2,
+      "17,40": 2,
+      "17,41": 2,
+      "17,42": 2,
+      "17,43": 2,
+      "17,44": 2,
+      "17,45": 2,
+      "17,46": 2,
+      "17,47": 2,
+      "17,48": 2,
+      "17,49": 2,
+      "17,50": 2,
+      "17,51": 2,
+      "17,52": 2,
+      "17,53": 2,
+      "17,54": 2,
+      "17,55": 2,
+      "17,56": 2,
+      "17,57": 2,
+      "17,58": 2,
+      "17,59": 2,
+      "17,60": 2,
+      "17,61": 2,
+      "17,62": 2,
+      "17,63": 2,
+      "17,64": 2,
+      "18,2": 2,
+      "18,5": 2,
+      "18,6": 2,
+      "18,10": 2,
+      "18,11": 2,
+      "18,12": 2,
+      "18,13": 2,
+      "18,14": 2,
+      "18,15": 2,
+      "18,16": 2,
+      "18,17": 2,
+      "18,18": 2,
+      "18,19": 2,
+      "18,20": 2,
+      "18,21": 2,
+      "18,22": 2,
+      "18,23": 2,
+      "18,24": 2,
+      "18,25": 2,
+      "18,26": 2,
+      "18,27": 2,
+      "18,28": 2,
+      "18,29": 2,
+      "18,30": 2,
+      "18,31": 2,
+      "18,32": 2,
+      "18,33": 2,
+      "18,34": 2,
+      "18,35": 2,
+      "18,36": 2,
+      "18,37": 2,
+      "18,38": 2,
+      "18,39": 2,
+      "18,40": 2,
+      "18,41": 2,
+      "18,42": 2,
+      "18,43": 2,
+      "18,44": 2,
+      "18,45": 2,
+      "18,46": 2,
+      "18,47": 2,
+      "18,48": 2,
+      "18,49": 2,
+      "18,50": 2,
+      "18,51": 2,
+      "18,52": 2,
+      "18,53": 2,
+      "18,54": 2,
+      "18,55": 2,
+      "18,56": 2,
+      "18,57": 2,
+      "18,58": 2,
+      "18,59": 2,
+      "18,60": 2,
+      "18,61": 2,
+      "18,62": 2,
+      "18,63": 2,
+      "18,64": 2,
+      "19,2": 2,
+      "19,3": 2,
+      "19,4": 2,
+      "19,5": 2,
+      "19,6": 2,
+      "19,7": 2,
+      "19,8": 2,
+      "19,9": 2,
+      "19,10": 2,
+      "19,11": 2,
+      "19,12": 2,
+      "19,13": 2,
+      "19,14": 2,
+      "19,15": 2,
+      "19,16": 2,
+      "19,17": 2,
+      "19,18": 2,
+      "19,19": 2,
+      "19,20": 2,
+      "19,21": 2,
+      "19,22": 2,
+      "19,23": 2,
+      "19,24": 2,
+      "19,25": 2,
+      "19,26": 2,
+      "19,27": 2,
+      "19,28": 2,
+      "19,29": 2,
+      "19,30": 2,
+      "19,31": 2,
+      "19,32": 2,
+      "19,33": 2,
+      "19,34": 2,
+      "19,35": 2,
+      "19,36": 2,
+      "19,37": 2,
+      "19,38": 2,
+      "19,39": 2,
+      "19,40": 2,
+      "19,41": 2,
+      "19,42": 2,
+      "19,43": 2,
+      "19,44": 2,
+      "19,45": 2,
+      "19,46": 2,
+      "19,47": 2,
+      "19,48": 2,
+      "19,49": 2,
+      "19,50": 2,
+      "19,51": 2,
+      "19,52": 2,
+      "19,53": 2,
+      "19,54": 2,
+      "19,55": 2,
+      "19,56": 2,
+      "19,57": 2,
+      "19,58": 2,
+      "19,59": 2,
+      "19,60": 2,
+      "19,61": 2,
+      "19,62": 2,
+      "19,63": 2,
+      "19,64": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "18,2,1,3",
+    "3,2,1,6",
+    "18,6,1,4",
+    "6,4,1,14",
+    "6,25,1,10",
+    "6,35,1,6",
+    "6,41,1,10",
+    "6,51,1,6",
+    "6,57,1,6",
+    "3,21,1,5",
+    "6,18,1,7",
+    "3,8,1,11",
+    "3,26,1,10",
+    "7,2,10,61",
+    "5,4,1,14",
+    "5,18,1,7",
+    "5,25,1,10",
+    "5,35,1,6",
+    "5,41,1,10",
+    "5,51,1,6",
+    "5,57,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//S4omLk3zJerEiMJpLp5iBpdScoRbQQmC2wBKfPMS2525E+dZwVUTyP3QHE7D03G3Fhg/hzu0n0WiIkIIC5HxesIfoCzZCgE07/Tla2mScPkd/kn9EVujT98Qay8kQNCjHqQtR0scKlVzpt6TpF5297djrcvO2WH8AYMhyIupTOg8aqhpWI6quWE68IL7VIhpzdrLRMcsCkBG/7h+Xx4/rKIhWEXnro0ASKnaSFcU2GbARMI0G5twEK1G4Mn2AKANq+1vCDdMVcTPKnRoOt8hSyLWr+/l5+8bSIm9TOalzb0Cb/I9vncSNbm+u/DjG707XJHXzzWHY5YiflQ20bT6nbzLSKvIWE5rhw84V/Z5mrMhPbOPAZPHz9th2hQgVfoMOEnz7S4CGbLttcprNIOm/ySqyIJPuo8zXxN5cqYMg66h/9WVKf8Q5PVUC9HtZpbtCqN3BWFhcjEgxkCdGe2uigRYfANz+nJeSrn26ggX+ND+debUEZCgBbm3aeTq59k/m0XIUyUB40s/fMRewwjn8evADiBrLBpel32IDZVTGMTGdp2da2Tscmnr6M1fIkFeH/aGO4qZEUp/j2/e1unDtcXEMRxFxhsr1aKYZqP6Tor2CCyAYmgVXfS8L+GXKfWXGm0auHn21gxDX5Uj5YgcToxSPZ05++qpiaDfIf8frqgKXZ10UgjjSK9YDWrtzPMEDa94HR/DLdu+lw8OZVJVWP2daTVzML5Ob5adq32cgUHc73IUp/Tc5wvEuc8SYqTx3HDFyEi9abSyc5/HdGPc1Y3yR45tyOG5jGC3PgOxD8EAAa72u8FtT/b1HQx91tnM75x6gok2Yq2nCTzkS7TF67x1qWbaTedJnqm0rwGl95+WEWjY+Wo79rLW58o5Hwkx2XnhwoDvRhrmU+ek3+7s3w==|920

@@ -1,0 +1,321 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 27.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 24
+  },
+  "Values": {
+    "2,1": "거래처검색",
+    "2,19": " Search",
+    "11,1": "검색 후 이용 바랍니다.",
+    "23,1": "신규",
+    "23,5": "닫기"
+  },
+  "AttachInfos": {
+    "2,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "WaterMark": "입력"
+      }
+    },
+    "2,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=거래처검색!I3"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "대일정",
+                    "ID": "b14ea40ec0a64235b698aab9924ba187"
+                  }
+                ],
+                "ID": "c37d8f28-80ac-4581-ba58-81cb1b04e7f7"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=거래처검색!I3"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "대일정",
+                    "ID": "7cd6bdd7091b4eeda003b1a5c6671535"
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=거래처검색!4:13"
+                        },
+                        "Value": false
+                      },
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=거래처검색!15:22"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  }
+                ],
+                "ID": "00e64336-c0b1-40a7-b702-3da6a2fc6bcc"
+              }
+            ]
+          }
+        ],
+        "Text": " Search",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "13,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "거래처",
+        "RowIndex": 13,
+        "ColumnIndex": 1,
+        "RowCount": 9,
+        "ColumnCount": 22,
+        "TopCondition": null,
+        "ListViewStyleName": "사용자 정의2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "14,1": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "회사명",
+        "GUID": "07db9234-83a4-417f-ad77-b8c3d2c64f7d"
+      }
+    },
+    "14,6": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "등록번호",
+        "GUID": "f36e14b5-361e-4fe9-a5cc-174360e7103a"
+      }
+    },
+    "14,13": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "대표자명",
+        "GUID": "e50720e6-a497-417d-b201-c83e04b77a58"
+      }
+    },
+    "14,17": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "대표전화",
+        "GUID": "f50e0bcf-d3f6-4476-a33c-ff2a9942dd8c"
+      }
+    },
+    "23,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "거래처등록"
+          }
+        ],
+        "Text": "신규",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "23,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 0
+      },
+      {
+        "Foreground": 3,
+        "Formatter": 0,
+        "HorizontalAlignment": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "@",
+        "Body",
+        "Background 1 -50",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,8": 1,
+      "2,19": 2,
+      "4,2": 0,
+      "4,22": 0,
+      "11,1": 3,
+      "23,1": 0,
+      "23,5": 0,
+      "25,2": 0,
+      "25,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "2,1,1,6",
+    "2,8,1,10",
+    "2,19,1,4",
+    "11,1,1,22",
+    "23,1,1,3",
+    "23,5,1,4",
+    "15,1,7,22",
+    "14,1,1,5",
+    "14,6,1,7",
+    "14,13,1,4",
+    "14,17,1,6",
+    "13,1,1,5",
+    "13,6,1,7",
+    "13,13,1,4",
+    "13,17,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "42d3d2f5-a18a-41db-a54d-6d88cc49872c.svg",
+      "ForguncyPictureName": "Application/047_search_8.svg",
+      "Stretch": 2,
+      "StyleInfo": {
+        "Fill": null,
+        "StrokeDashType": 8,
+        "Stroke": null,
+        "StrokeThickness": 1.0
+      },
+      "ForegroundFill": "Accent 1",
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "150,85",
+      "Size": "131,126"
+    }
+  ]
+}//pgphRTwlrLofSMGKLGoieLFKyNgtw40YEHx+Tl+Fs3qSy267KS15qx/me6Ke4Vvgb7UMABIjar1Pv7N4/6s3SoSWmEuPNVfYTfk6q1kgjp+/mNg6XtsUgkATL0e4jPUUDx8yZHQk0tMZ9u6fiXNbVBByfGNWOPOtPuyl3A9CiShsj76bX1zU0FEk6MXzCLeb4KXRTHcG/jbth0b/gDiTNx3Eq6803fIZwVWp591u/zNfpXfwKtp5Tk8urB9+UkaYqckAO/ypl1LfQ9ijv3OJMQD6q9LPYIFpx8o4atieNYAJ5bd7+5Hqqwn+yQMr35/u2hFF4VJaO9zgX9B9MaG3epf6lSato83W0kZ/mbl1OwWWXb7OBdPCC9nIjdc373fgFLVINgp2Ijd5tywBRjbCVubqe9LS7x0Zwzv9r7hh7WRileVjgy0OZbLqRIl3W5xSAeu6RA05GlAI2EdD798+GM4RZESPR5bv+xLb/MeKNywdSHWFhU8JTWxz8DMkUlr1Y5B43gOUSHGCFaEn3W6/wd0xUC8LgmsaJlJHoiG8ub3paagu9pNuI+XGauF2g6Q05LQlZPAPTbMnTupZsRGvCSmTsqoX7VF7wFRTgb/7POBnWFNjxTG4uCRyNbahFmMYwFJUle8972m3hvvXfmhYarONf4jBTfY+G7iqYUq+CVUgdQtBg83PqBkMI2sJsC7F0KfFxBAyeRcaKnW2rWqhpl6NbG30NrH+f3BwOFz5/V6gAMdwdkQySp0LUW0tv7ZuG/YoDh4UHeOw8oIYvagIDEusgpExqb4wmte3vOFsMVPoXb6HGlJWPymtEYfjwyvnyj8yLeqRH1a0yoNpSWUgcWRyUlVlOgl2OV22wJs3Hj5oEpkZ18w41BI5eM0KonG9R0/J4k1wnS+ZZvygiueExw==|920

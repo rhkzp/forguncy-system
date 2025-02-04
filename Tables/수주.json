@@ -1,5 +1,5 @@
 {
-  "Name": "품목",
+  "Name": "수주",
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -14,46 +14,36 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "품목구분",
+      "Name": "작업번호",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Unique": true,
-      "DatabaseColumnType": "System.String",
-      "AutoGenreatedIDSetting": {
-        "Composition": [
-          {
-            "Content": "JTP"
-          },
-          {
-            "Content": "-"
-          },
-          {
-            "ComponentType": 3,
-            "Content": 2
-          }
-        ]
-      },
-      "Name": "품목코드",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "System.Double",
+      "Name": "수주일자",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Name": "거래처ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "품목",
+      "Name": "납품기일",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "규격",
+      "Name": "견적번호",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "단위",
+      "Name": "통화",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -61,17 +51,6 @@
       "DatabaseColumnType": "System.String",
       "Name": "첨부_파일",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Name": "도면번호",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Double",
-      "Name": "품목등록일",
-      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
@@ -96,6 +75,15 @@
   ],
   "PrimaryKey": [
     "ID"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "거래처",
+      "PrimaryColumn": "ID",
+      "ForeignTable": "수주",
+      "ForeignColumn": "거래처ID",
+      "IsDetailTableRelation": false
+    }
   ],
   "Indexes": []
 }

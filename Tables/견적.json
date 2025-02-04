@@ -1,162 +1,5 @@
 {
   "Name": "견적",
-  "PermissionData": {
-    "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
-    "permissionResource": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
-      "enabledTypes": 4,
-      "detailTables": []
-    },
-    "permissionBindings": [
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 1,
-        "roleNames": [
-          "FGC_LoginUser"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
-          "operationTypes": 13,
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 2,
-        "roleNames": [
-          "Administrator"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
-          "operationTypes": 5,
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 1
-          }
-        },
-        "dataPermissionType": 2,
-        "roleNames": [
-          "FGC_LoginUser"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
-          "operationTypes": 1,
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 2
-          }
-        },
-        "dataPermissionType": 2,
-        "roleNames": [
-          "FGC_LoginUser"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
-          "fieldOperations": {
-            "ID": 1,
-            "견적일자": 5,
-            "견적구분": 5,
-            "견적번호": 5,
-            "수신인": 5,
-            "수량": 5,
-            "단가": 5,
-            "합계금액": 5,
-            "통화": 5,
-            "납기": 5,
-            "견적유효기간": 5,
-            "수주여부": 5,
-            "비고": 5,
-            "첨부_파일": 5
-          },
-          "subTableOperations": {},
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 4,
-        "roleNames": [
-          "Administrator"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
-          "fieldOperations": {
-            "ID": 1,
-            "견적일자": 5,
-            "견적구분": 5,
-            "견적번호": 5,
-            "수신인": 5,
-            "수량": 5,
-            "단가": 5,
-            "합계금액": 5,
-            "통화": 5,
-            "납기": 5,
-            "견적유효기간": 5,
-            "수주여부": 5,
-            "비고": 5,
-            "첨부_파일": 5
-          },
-          "subTableOperations": {},
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 4,
-        "roleNames": [
-          "FGC_LoginUser"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
-          "fieldOperations": {
-            "ID": 1,
-            "견적일자": 5,
-            "견적구분": 5,
-            "견적번호": 5,
-            "수신인": 5,
-            "수량": 5,
-            "단가": 5,
-            "합계금액": 5,
-            "통화": 5,
-            "납기": 5,
-            "견적유효기간": 5,
-            "수주여부": 5,
-            "비고": 5,
-            "첨부_파일": 5
-          },
-          "subTableOperations": {},
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 4,
-        "roleNames": [
-          "FGC_Anonymous"
-        ]
-      }
-    ]
-  },
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -176,15 +19,15 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Double",
-      "Name": "견적일자",
-      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "견적번호",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "Name": "견적일자",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -195,31 +38,26 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "수신인",
+      "Name": "Contact",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Name": "품목ID",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "System.Double",
+      "Name": "견적유효기간",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Int64",
-      "Name": "수량",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "System.Double",
+      "Name": "납품일자",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Int64",
-      "Name": "단가",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Int64",
-      "Name": "합계금액",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "$type": "Forguncy.SaveLoad.AttachmentBindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "Name": "첨부_파일",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -230,31 +68,13 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "납기",
+      "Name": "종결여부",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "견적유효기간",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "수주여부",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "비고",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.AttachmentBindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "첨부_파일",
+      "Name": "작업번호",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -287,13 +107,6 @@
       "PrimaryColumn": "ID",
       "ForeignTable": "견적",
       "ForeignColumn": "거래처ID",
-      "IsDetailTableRelation": false
-    },
-    {
-      "PrimaryTable": "품목",
-      "PrimaryColumn": "ID",
-      "ForeignTable": "견적",
-      "ForeignColumn": "품목ID",
       "IsDetailTableRelation": false
     }
   ],

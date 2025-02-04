@@ -1,0 +1,140 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      }
+    },
+    "Count": 15
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 24
+  },
+  "Values": {
+    "12,1": "인쇄",
+    "12,5": "닫기"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "품목",
+        "RowIndex": 2,
+        "ColumnIndex": 1,
+        "RowCount": 9,
+        "ColumnCount": 22,
+        "TopCondition": null,
+        "ListViewStyleName": "사용자 정의2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "12,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "NewOtherName": "",
+            "AutoFitRowHeight": true
+          }
+        ],
+        "Text": "인쇄",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "12,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "12,1": 0,
+      "12,5": 0,
+      "14,2": 0,
+      "14,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "12,1,1,3",
+    "12,5,1,4",
+    "4,1,7,22"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//ugFNMbJ8ZNCx0bLNY5OfapErwh6dbfPBkdsK/lLLwehWjRkoZESwUuTnFPrrs3p2IUXG7h3J7XzmuwBrE+5Sq7uoWypF1IClZiaBFBnTbkcJC1NA7dqNhsO6ywx3COB8vo0fFwozfKayrQW06qswH4TeIE3/bPgvQw67MudrNc2rs42C3fQsx54gGGz2TtwdACJEehS4+iwbNytzojWwqofYmzoknKFcjMdnKcmd7d0k0Ud0A/xwiGN5kxRws5zg41JCcKDOYtlrs8Enx4a2t/yzIhuMYu0GY3ya9oVofPUISClz6SG1p0TQGoK8y9hRW0/UMdbjiE7ugtUL1dvhtzvWKtjoSnOEMxeYn/kWiZBwCP8s9b/3dGHTBhg3hffGZWbK11/9aCbYC/oZw5AXnDY6F3qE//CuDr+wJyVN9guEY3NF8YiUbY1YuHAUao+r19346M8kXDlfbu7zAR3UshfeD5jdiEqaa967fLPQaQzwy+NfhG8u13zKTYpo58fqgb9VrgOx18I22lK1bx4zBMrA8ZQ8x7nQjCUwmLywyMfAbHvsadJE1rP0+a1VRHQ4lQUzp7vB0MbNZY7h2xDRpcid6CAdCQ4vVoV4AwitkUpoDONvervs2B9kY3fUjIPswXpRPqI2LIaeuXO4LiG6UUR0XfKoppGA4Fxeix7W4QQ8+3EW+RMJf8kLn3dwYKOy3jfnXBEOtGpRAczMlOfb1ZCNQ/xVSVe1csDIWr7lP+F0KpZCgtUi1ePlDzQxbpZSBRvyF9JRM1iWzzlj6SiqeDYkMzkEXuPBW2Zbq+yfu+v1BTBOsrxg83dDEQxNCqhFeHdFjf9gt1Lrhzw+52sjkjYBRcillSjIe1SrLeSNu7IPB1diiIw00ILr+9PLMdZ2V9jLoC+doN+Cu1ipLkRAvQ==|920

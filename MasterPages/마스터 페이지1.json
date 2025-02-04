@@ -299,6 +299,60 @@
         "TemplateKey": "_RS_NewMenuLight",
         "Items": [
           {
+            "Value": "업무보고",
+            "Text": "업무보고",
+            "IconPath": "Navigation/184_calendar_4.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "NavigateType": "back"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "대일정",
+                "Text": "대일정",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "대일정목록"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "부서별 업무보고",
+                "Text": "부서별 업무보고",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "주간업무목록"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
             "Text": "견적서",
             "IconPath": "Application/135_calculator_2.svg",
             "SelectedIconColor": "Background 1",
@@ -309,7 +363,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "견적서작성"
+                "NavigateType": "back"
               }
             ],
             "CanVisitRoleList": [
@@ -362,7 +416,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "수주접수"
+                "NavigateType": "back"
               }
             ],
             "CanVisitRoleList": [
@@ -400,6 +454,23 @@
                 "CanVisitRoleList": [
                   "FGC_Anonymous"
                 ]
+              },
+              {
+                "Value": "출하관리",
+                "Text": "출하관리",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "출하관리"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
               }
             ]
           },
@@ -411,6 +482,12 @@
             "IconColor": "Accent 1",
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "NavigateType": "back"
+              }
+            ],
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -1297,4 +1374,4 @@
       "BoxShadowString": "0 2 0 5 #175D7183"
     }
   ]
-}//7H34xB1styhi+KIQloAPMJPuXgaFv9TiP8i1CgfrxQIjCYZIRuKMaK4gQ17GQksr0z91uKg/55bXSx70AYTRjiwI2N5jS6jivNXHRpiHa38vNFGo27JMImLPfdfHHMMs9Al3c2dSazjgkOdK6NKESLiV/yGD7Tv8iC9cQyv7ZhRD5gCrKtOcIAZRFfI+RhCKTtnYMHkhSpV705kmcumO4Wgg7NZ+0+pnbolVn6dgZ32mswMZ2ATET8a0tS1+c9YByDYeoumsEI/XmdtyOn98IsHzQHeq1X7iRrrTWCUoVKyQ9GLfsHvSHDMOK8np06VgH2LuYb4N2VTyMmC6qpStxsxBq2MlmlosF8qMNYLtzZl71mumSE6ZfgwzZXlNWtjOu/HjuoaqNHJGXmcDSvP+fiob228RpP1H5vh4ZFaxj5b67PFHEWNBg83CfFYKsKL3dZ/r0DNWjQc/tmWCH2d0utB4pQA/BHtaN2A6xpfFM29MYx/V0fRvPKaZ8HdV1BRX1W0VYrmDy3dIUmA4NyjfjVGyX3jYQyUxBqgzzQdGEmIZx3lV0Xrb9+aFwpONnLeFIL+5TjaPst21s9Ms+Dxpfulumk1quFL1HFaVTVOP5qX+QKdQrnsBcdEUcMvTOqbNQoA/EEP4ZaLpDRV/rnI3xqBtRfg5/qWEGmZMWbe6Ec2gCYgzfikz5Dr4PFkBuCiC0a0kAQe7jnMhUbYE7JTQWW8E7j+XGbSTsA02e4nOKjUKZ6P2IXlaBebH3X9d3PNiJg0/7PcHbjS0ZpKqIGKIfvzfYqsdNBdM6MmVQhoqTqocLuMZ6LpsRxEMlpu//qozWIsv9R4qeyBCnyg6CpvEWDYMKnm+E/j/VgjPhoqbIzwbxES/ylQ1DL2LpbiNIPzD252IYHKctzNvLA1DLlhRrg==|920
+}//Lv4P/9drDonDV7xLZDQEIOubXa+9djIIPWF5igd4+n3uTdGPoAv/39thG1W3eLJe1QLngQvD5LbrNmk7wRlHk4P549MYQ1JxpW50Nh/Lq4mV475RCOfPFPEqjOhGPNH1oUIcXj9h5XLtYJG+tZ0gR+xRRUoC1cvJClXS0OdUGEcZyu5OfGeSCJuHJCJxEqQ8KEZ31+h4JDF+z/n12OIdNg4jYx26rxrCNet7g47zZPZmtIPHoNOeP4TicHkV9CGZbL3ml9xiX1IJrHjsBgcWURciGfof8l4aehnxTqCeb3yYG959onM2EEtNK5x6Fd/CpYRgke4cYks3sLGwRaVCyH5NOKBuRUy9a9lHjJhOgmkTgrDZKiiIfU4+1GAVt0bIaRTuKu3wrdkg0DgXyEInwKbVO0SeeUa/KoyIhxS+F0nXAh2AwnY5N7CbRJCrGkCNuAZDtLb2anfUVTQWRDtQp27A42uOfUzgGK9O+8HdAC3R9vpAMHDVMBJuSZR10OwqKNOppoSLitB6ehp+/7o/JWKjSu/tKngUh5+VDjK7MnbYhoQD799++Iw3/9wTf/lmmxBTRDby7Qer9Cy9CytQC8+rW2cXW3Z7NnZL/yq6MVGpG6Jp66JbrQQCFWhZjNwq8PRxYnB3Af8UN7CiZuBVqUuOlpLou2JcGNpB1jnrnIePgEvhqPS786cuENG/uzl19S7cHCjgBZbaL+A24BKXQbudUnZktJvFCIfytjwnZCz1LSahKI6kKvGw+p18+irTkD2+6uMhQ8lsQThlWNH9BS+osePCk+ssqG2COJDiGz4XWFvIzO/i+jXfrtzvZYRtfko4FaUI/Xhua60V9gzwCdipEz+c7iSKGUsoB+4qlzYgQb+B5/xfW3962j1kOO+LZpMYnvmw/zCgnfTVGPh4CA==|920

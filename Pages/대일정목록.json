@@ -1,0 +1,427 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 31.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 21,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 51,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,1": "대일정",
+    "6,39": "삭제",
+    "18,1": "신규",
+    "18,5": "닫기"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "리스트뷰1",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "#FF004C81"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "#FF004C81"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "#FF004C81"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "#FF004C81"
+        }
+      }
+    },
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "대일정",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 12,
+        "ColumnCount": 40,
+        "TopCondition": null,
+        "ListViewStyleName": "사용자 정의2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,3": {
+      "NameUsedInJavaScript": "구분",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "구분",
+        "GUID": "8a830548-7c3d-465a-912b-c5ee2ca11da8"
+      }
+    },
+    "6,6": {
+      "NameUsedInJavaScript": "연도",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "연도",
+        "GUID": "4ad6c0a1-15cf-4310-9156-901ecec0f5eb"
+      }
+    },
+    "6,9": {
+      "NameUsedInJavaScript": "작업번호",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "작업번호",
+        "GUID": "b9bec0b9-465e-4c9c-ac6d-9d2892c78fc1"
+      }
+    },
+    "6,12": {
+      "NameUsedInJavaScript": "고객사",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "고객사",
+        "GUID": "99aea90d-fcb5-4bb7-8272-d8ef806c5bfb"
+      }
+    },
+    "6,15": {
+      "NameUsedInJavaScript": "MODEL",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "MODEL",
+        "GUID": "e8df7642-55c5-4e06-be7e-f8c688fb4ebc"
+      }
+    },
+    "6,18": {
+      "NameUsedInJavaScript": "이슈사항",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "이슈사항",
+        "GUID": "549a434a-4af6-4174-93bc-0637d0d413f7"
+      }
+    },
+    "6,21": {
+      "NameUsedInJavaScript": "Type",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "Type",
+        "GUID": "bc9aecf2-e56b-40bb-bdcd-2d7c8eb805b1"
+      }
+    },
+    "6,24": {
+      "NameUsedInJavaScript": "수주일",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "수주일",
+        "GUID": "1f382aea-6728-4f1f-bd96-7394979d10ea"
+      }
+    },
+    "6,27": {
+      "NameUsedInJavaScript": "납기",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "납기",
+        "GUID": "37bd1ccf-62d1-4a07-8cca-62f4fbf75b19"
+      }
+    },
+    "6,30": {
+      "NameUsedInJavaScript": "원자재",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "원자재",
+        "GUID": "0a9f6f17-4203-4c8d-96c2-dddf6e342e7d"
+      }
+    },
+    "6,33": {
+      "NameUsedInJavaScript": "DTO",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "DTO",
+        "GUID": "6fadcfa2-8733-4ccd-bb38-ac0497cdc6ff"
+      }
+    },
+    "6,36": {
+      "NameUsedInJavaScript": "진행상태",
+      "BindingInfo": {
+        "TableName": "대일정",
+        "ColumnName": "진행상태",
+        "GUID": "154ba829-f5ad-4461-92d2-a727513987d9"
+      }
+    },
+    "6,39": {
+      "NameUsedInJavaScript": "삭제",
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "데이터를 삭제하시겠습니까?"
+          }
+        ],
+        "Text": "삭제"
+      }
+    },
+    "18,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "대일정등록"
+          }
+        ],
+        "Text": "신규",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "18,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 5
+      },
+      {
+        "HorizontalAlignment": 6
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "Foreground": 7,
+        "HorizontalAlignment": 6,
+        "Underline": true
+      },
+      {
+        "HorizontalAlignment": 8
+      },
+      {
+        "FontWeight": 0,
+        "Foreground": 9
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body",
+        "Left",
+        "Background 1 -50",
+        "@",
+        "[AUTO]General",
+        "Center",
+        "Accent 1",
+        "Right",
+        "Text 1 0"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "2,1": 0,
+      "3,1": 1,
+      "3,28": 2,
+      "3,29": 3,
+      "3,30": 3,
+      "3,31": 3,
+      "3,32": 2,
+      "3,39": 3,
+      "3,40": 3,
+      "4,1": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,28": 2,
+      "4,29": 2,
+      "4,30": 2,
+      "4,31": 2,
+      "4,32": 2,
+      "4,33": 2,
+      "4,34": 2,
+      "4,35": 2,
+      "4,36": 2,
+      "4,37": 2,
+      "4,38": 2,
+      "4,39": 4,
+      "4,40": 4,
+      "6,3": 5,
+      "6,6": 5,
+      "6,9": 5,
+      "6,12": 5,
+      "6,15": 6,
+      "6,18": 5,
+      "6,21": 5,
+      "6,24": 5,
+      "6,27": 5,
+      "6,30": 5,
+      "6,33": 5,
+      "6,36": 5,
+      "6,39": 7,
+      "17,1": 8
+    },
+    "RowStyles": {
+      "5": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "6,3,1,3",
+    "6,6,1,3",
+    "6,9,1,3",
+    "6,12,1,3",
+    "6,15,1,3",
+    "6,18,1,3",
+    "6,21,1,3",
+    "6,24,1,3",
+    "6,27,1,3",
+    "6,30,1,3",
+    "6,33,1,3",
+    "6,36,1,3",
+    "6,39,1,2",
+    "7,1,10,40",
+    "3,32,1,7",
+    "18,1,1,3",
+    "18,5,1,2",
+    "3,1,1,6",
+    "3,39,1,2",
+    "5,3,1,3",
+    "5,6,1,3",
+    "5,9,1,3",
+    "5,12,1,3",
+    "5,15,1,3",
+    "5,18,1,3",
+    "5,21,1,3",
+    "5,24,1,3",
+    "5,27,1,3",
+    "5,30,1,3",
+    "5,33,1,3",
+    "5,36,1,3",
+    "5,39,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "마스터 페이지1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//dBWz9RRTISD0f3aeCdGED+iqrghQTjFm2rzj8Ur9dHKV0LLOEhiO8y/TnBfsae/Gz89wXSAqr8b9pozZ+6slcTUjYgJPCwiiuprHJufx3qNyId8CS50wix29BOuJPhu9Bk7cXXnH+z1n4xD40QPnH3be5FeIrW87PDwbzGxLBStGXg2Z7Ak+J98PXKLH8fbT3OC8fXrZnsV6gmyIZlrupGe58FbEgccfnLevC7OaOwMv2o+yS2MPDNcIeESQfMZh2DyaZURrfdJqQE5Byn0iV8jloFrBLki++d6JXAKJu/ba/M1+LymccLPs7w0EvqgqmF4CISOVK0LfJ/hsFtkl7yvUF9zqjhiXvxX5UoaXJgu0ztoxi6i4t/rQsXoXt2H+jFyMkExj6Z1cHVO5DdHKFSLPETgMfH9ZUnphXrTRMhdaSaiu/s2BEqAzxrlt3Gj7W22E55mhAGHWg+3TAeGygsPQQ6nvKJEGemF9VKL+PmVrW9pRhRltyf9l3b6DQmzSWUQelGoYdbaVoAwGCbZPATtvJtE5KEYgwP7n1Fj1AzwHMIuO/mj4HXgkIewvvnflc8DrKHqzuMw9gucY0UWs6/W+HbUv7b93iCKhJ9dhBheDk0g7b2mUMxtX48Fww4Itp8HbONJQuR0GsmWtIO0Hw1NtsZ2OiBo/8LcwNF/g4oxLhuoWa2tn7WKzIeT64GF/VeD3XS4gRmbS4OnNuWiMJUnzpb5NlGAUd/BbDkesoDWkTuVMeU1Bfvc1kdGkvU3p4AkofQ8Dt5aqBHWabuKwt+eHxflgZOrcE7uguuLu1Yr7gsqoZ8pR85Qch6E8/WWHWL+lkvK7YUoXM0FcZHrGgffaGt9AUnGm7OldT36hK6UAHvxQS/QPyyvhj1jWh1H9YRvdNgZtg7PJcJrVDX4sqA==|920
